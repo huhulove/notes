@@ -50,5 +50,4 @@
 
 最后将修改的配置应用，配置完成
 
-[IIS上部署Vue网站 由于history模式导致刷新页面出现404报错的解决方式]: https://blog.csdn.net/xsw0605/article/details/105560582
-
+原文链接：[https://blog.csdn.net/xsw0605/article/details/105560582](https://blog.csdn.net/xsw0605/article/details/105560582 )
