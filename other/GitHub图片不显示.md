@@ -28,5 +28,5 @@ C:\Windows\System32\drivers\etc\hosts
  # GitHub End
 ```
 
-[https://zhuanlan.zhihu.com/p/107196957]: 原文链接
+[原文链接]: https://zhuanlan.zhihu.com/p/107196957
 
