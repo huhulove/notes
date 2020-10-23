@@ -2,7 +2,7 @@
 
 1、项目中找到此文件“node_modules/webpack-dev-server/lib/Server.js”，按照下图修改：
 
-![](assets/image-20201023112034120.png)
+![](assets/image-20201023112624362.png)
 
 二、修改配置文件package.json，见下图：
 
