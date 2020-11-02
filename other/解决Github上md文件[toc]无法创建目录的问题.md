@@ -36,5 +36,5 @@ Markdown All in One: Create Table of Contents
 over(●'◡'●)
 ```
 
-[原文链接：]: https://www.cnblogs.com/muzidaitou/articles/12858842.html
+原文链接：[https://www.cnblogs.com/muzidaitou/articles/12858842.html](https://www.cnblogs.com/muzidaitou/articles/12858842.html)
 
