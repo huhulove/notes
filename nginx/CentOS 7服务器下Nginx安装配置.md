@@ -133,9 +133,9 @@ CentOS7默认的防火墙为firewall
 
    ```
    $ firewall-cmd --reload  //重新载入
-   $ firewall-cmd --zone=public --query-port=80/tcp  //查看
-   //$ firewall-cmd --permanent --query-port=80/tcp //或者这样查看
-   $ firewall-cmd --zone=public --remove-port=80/tcp --permanent  //删除端口
+   $ firewall-cmd --zone=public --query-port=端口/tcp  //查看
+   //$ firewall-cmd --permanent --query-port=端口/tcp //或者这样查看
+   $ firewall-cmd --zone=public --remove-port=端口/tcp --permanent  //删除端口
    ```
 
 #### 5. 访问nginx.config 权限不够问题
