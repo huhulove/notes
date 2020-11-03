@@ -20,13 +20,19 @@ $ yum -y install make zlib zlib-devel gcc gcc-c++ libtool  openssl openssl-devel
 2. 解压缩文件包
 
    ```
+   tar zxvf nginx-1.14.2.tar.gz
+   ```
+   
+3. 进入安装目录，编译安装
+
+   ```
    $ cd nginx-1.14.2
    $ ./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-pcre  --with-http_ssl_module
    $ make
    $ make install
    ```
 
-3. 安装完成后的摘要信息：
+4. 安装完成后的摘要信息：
 
    ```
    Configuration summary
@@ -51,7 +57,7 @@ $ yum -y install make zlib zlib-devel gcc gcc-c++ libtool  openssl openssl-devel
 
    默认安装到/usr/local/nginx目录。
 
-4. 查看Nginx版本
+5. 查看Nginx版本
 
    ```
    $ /usr/local/nginx/sbin/nginx -v
@@ -61,7 +67,7 @@ $ yum -y install make zlib zlib-devel gcc gcc-c++ libtool  openssl openssl-devel
    nginx version: nginx/1.14.2
    到此，nginx安装完成。
 
-5. 启动、关闭Nginx
+6. 启动、关闭Nginx
 
    检查配置文件是否正确
 
