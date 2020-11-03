@@ -20,7 +20,7 @@ $ yum -y install make zlib zlib-devel gcc gcc-c++ libtool  openssl openssl-devel
 2. 解压缩文件包
 
    ```
-   tar zxvf nginx-1.14.2.tar.gz
+   $ tar zxvf nginx-1.14.2.tar.gz
    ```
    
 3. 进入安装目录，编译安装
