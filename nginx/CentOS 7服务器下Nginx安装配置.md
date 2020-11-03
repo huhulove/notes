@@ -116,15 +116,27 @@ $ yum -y install make zlib zlib-devel gcc gcc-c++ libtool  openssl openssl-devel
 #### 4. 防火墙配置
 
 CentOS7默认的防火墙为firewall
-开启端口80方法：
 
-```
-$ firewall-cmd --zone=public --add-port=80/tcp --permanent  //--permanent永久生效，没有此参数重启后失效
-$ firewall-cmd --reload  //重新载入
-$ firewall-cmd --zone=public --query-port=80/tcp  //查看
-//$ firewall-cmd --permanent --query-port=80/tcp //或者这样查看
-$ firewall-cmd --zone=public --remove-port=80/tcp --permanent  //删除端口
-```
+1. 开启端口80方法：
+
+   ```
+   $ firewall-cmd --zone=public --add-port=80/tcp --permanent  //--permanent永久生效，没有此参数重启后失效
+   ```
+
+2. 开启端口区间方法：
+
+   ```
+   $ firewall-cmd --zone=public --add-port=端口开始-端口结束/tcp --permanent  //--permanent永久生效，没有此参数重启后失效
+   ```
+
+3. 接下来执行命令
+
+   ```
+   $ firewall-cmd --reload  //重新载入
+   $ firewall-cmd --zone=public --query-port=80/tcp  //查看
+   //$ firewall-cmd --permanent --query-port=80/tcp //或者这样查看
+   $ firewall-cmd --zone=public --remove-port=80/tcp --permanent  //删除端口
+   ```
 
 #### 5. 访问nginx.config 权限不够问题
 
