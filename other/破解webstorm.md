@@ -10,8 +10,6 @@
 
 在部分设备中，如果拖进去几次没提示重启，那就手动重启试下
 
-![](http://www.winwin7.com/uploadfile/2020/0804/20200804044731810.jpg)
-
-
+![](assets/20200804044731810.jpg)
 
 原文链接：[http://www.winwin7.com/JC/21826.html](http://www.winwin7.com/JC/21826.html)
