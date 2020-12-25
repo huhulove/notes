@@ -28,4 +28,11 @@ C:\Windows\System32\drivers\etc\hosts
  # GitHub End
 ```
 
+如何添加以上配置后还不能正常显示，请检查DNS配置问题，俺的DNS配置是
+
+```
+首选：8.8.8.8
+备用：192.168.1.1
+```
+
 原文链接：[https://zhuanlan.zhihu.com/p/107196957
